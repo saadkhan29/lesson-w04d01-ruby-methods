@@ -86,22 +86,12 @@ SIDENOTE: Ruby's errors are amazing. Use them!
 
 There are some fun ways to play with arguments and define further behavior:
 
-### Default arguments
+<br>
 
-```ruby
-def drink_milk(thirsty = true)
-  return "I'm not thirsty" unless thirsty
-
-  "mmmmmm... milk...."
-end
-```
-
-### Woah, that return statement?
-
-In Ruby, returns are implicit by design. Ruby will always assume that the last line of the method will be returned. So why the first return?
-
+In Ruby, returns are implicit by design. Ruby will always assume that the last line of the method will be returned.
+<br>
 Can you read it in English? One of Ruby's biggest benefitsis that it reads pretty closely to English
-
+<br>
 Additionally, you can add the statements `if` and `unless` to your return statement, which acts similarly to an if block.
 
 ```javascript

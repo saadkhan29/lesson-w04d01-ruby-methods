@@ -170,8 +170,6 @@ Here are the most important rules
 
 * A single line block must use `{` and `}`
 * A multi-line must use `do` and `end`
-* If an argument is unused it should start with `_` (or just be named `_`)
-  * `hash.each { |_key, val| puts val }`
 
 **Methods**
 
@@ -182,6 +180,3 @@ Here are the most important rules
 * Don't name methods like `get_foo`, `set_foo`. They should be `foo` and `foo=`
 * **Do** use `attr_reader` and `attr_writer`
 * Do not use parens when calling a method without args
-  * `super` is one possible exception
-* **Do** use parens for every method except for DSLs (and a small list of other common methods)
-  * `attr_reader`, `puts`, `require`, `include`, `it`, `has_many`, ...

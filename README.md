@@ -90,21 +90,8 @@ There are some fun ways to play with arguments and define further behavior:
 
 In Ruby, returns are implicit by design. Ruby will always assume that the last line of the method will be returned.
 <br>
-Can you read it in English? One of Ruby's biggest benefitsis that it reads pretty closely to English
 <br>
-Additionally, you can add the statements `if` and `unless` to your return statement, which acts similarly to an if block.
 
-```javascript
-function apiCall(err, data){
-  if (err){
-    return err;
-  }
-
-  // Do stuff
-}
-```
-
-vs.
 
 ```ruby
 def api_call(err, data)
